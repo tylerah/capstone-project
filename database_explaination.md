@@ -1,7 +1,7 @@
 Emarie,  9/16
 
 Database Work:
-- Created an RDS in AWS called yrbs-database
+- Created an RDS in AWS called yrbs-database2
     - Made settings public
 - Connected my pgAdmin to rds instance
     - Made a server named AWS and database named yrbs-database
@@ -19,10 +19,10 @@ For other people to be able to run this code (accessing_s3_bucket_data):
 - Connect your computer’s postgres to the rds:
     - Follow along with module 16.7.3 starting at 35 seconds into the video
     - Name new server AWS
-    - Endpoint: yrbs-database.cmrpdimankmq.us-east-1.rds.amazonaws.com
+    - Endpoint: yrbs-database2.cfajpmglo7yt.us-west-1.rds.amazonaws.com
     - username: postgres
     - password: 
-    - make a database in AWS server group called yrbs-database
+    - make a database in AWS server group called yrbs-database2
     - create table schema (code below)
 -   Create a gitignore (that ends in .py and is in the same folder as file) and add:
     - ACCESS_ID = ""
