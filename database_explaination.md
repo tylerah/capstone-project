@@ -17,17 +17,17 @@ Database Work:
 
 For other people to be able to run this code (accessing_s3_bucket_data):
 - Connect your computer’s postgres to the rds:
-o   Follow along with module 16.7.3 starting at 35 seconds into the video
-o   Name new server AWS
-o   Endpoint: yrbs-database.cmrpdimankmq.us-east-1.rds.amazonaws.com
-o   username: postgres
-o   password: postgres1
-o   make a database in AWS server group called yrbs-database
-o   create table schema (code below)
+    - Follow along with module 16.7.3 starting at 35 seconds into the video
+    - Name new server AWS
+    - Endpoint: yrbs-database.cmrpdimankmq.us-east-1.rds.amazonaws.com
+    - username: postgres
+    - password: 
+    - make a database in AWS server group called yrbs-database
+    - create table schema (code below)
 -   Create a gitignore (that ends in .py and is in the same folder as file) and add:
-o   ACCESS_ID = ""
-o   ACCESS_KEY = ""
-o   db_password =  “”
+    - ACCESS_ID = ""
+    -  ACCESS_KEY = ""
+    - db_password =  “”
  
 Here is the creating table schema:
 
