@@ -1,6 +1,6 @@
-Emarie,  9/16
+### Emarie,  9/16
 
-Database Work:
+##### Database Work:
 - Created an RDS in AWS called yrbs-database2
     - Made settings public
 - Connected my pgAdmin to rds instance
@@ -15,7 +15,7 @@ Database Work:
     - Add cleaned data to s3 bucket
     - Put machine learning code in between reading in the dataframe and exporting it to sql. Then when we export it, the machine learning data will go into the RDS for querying
 
-For other people to be able to run this code (accessing_s3_bucket_data):
+##### For other people to be able to run this code (accessing_s3_bucket_data):
 - Connect your computer’s postgres to the rds:
     - Follow along with module 16.7.3 starting at 35 seconds into the video
     - Name new server AWS
@@ -29,7 +29,7 @@ For other people to be able to run this code (accessing_s3_bucket_data):
     -  ACCESS_KEY = ""
     - db_password =  “”
  
-Here is the creating table schema:
+##### Here is the creating table schema:
 
  CREATE TABLE fake_data (
  This_ TEXT,
@@ -38,3 +38,10 @@ Here is the creating table schema:
  Data_ Text);
  
 SELECT * FROM fake_data;
+
+
+
+
+### Emarie, 9/17
+
+Created an Entity Relationship Diagram with quickdatabasediagrams.com. I added the calculated variables to the demographics table. All the variables were numeric except question 5. I still labeled this as an integer, because I expect that we'll somehow encode this numerically to put it in the machine learning model. The diagram is saved as erd.png
