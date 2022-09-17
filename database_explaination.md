@@ -28,6 +28,8 @@
     - ACCESS_ID = ""
     -  ACCESS_KEY = ""
     - db_password =  “”
+- Install pymysql with:
+    pip install PyMySQL
  
 ##### Here is the creating table schema:
 
