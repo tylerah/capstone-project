@@ -2,6 +2,7 @@
 DABC Capstone Team Project
 
 ## Machine Learning Model
+AUTHOR: Isaac Jorgensen
 Which model did you choose and why?
 How are you training your model?
 What is the model's accuracy?
