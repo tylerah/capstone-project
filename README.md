@@ -2,11 +2,7 @@
 DABC Capstone Team Project
 
 ## Machine Learning Model
-AUTHOR: Isaac Jorgensen
-Which model did you choose and why?
-How are you training your model?
-What is the model's accuracy?
-How does this model work?
+*AUTHOR: Isaac Jorgensen*
 
 The project's mission is to be able to predict suicide risk from survey data -- taken from this place. As such, the target variable will be a boolean (0, 1) classification with 0 indicating no suicide risk and 1 inidicating that there is. It was decided to use a random forest ensemble learning model because the nature of the project aligns with the ways random forest excels: resistant to overfitting, naturally ranks feature importance, and handles outliers well. 
 Because mental health is such an important aspect of an individuals life and can have devastating affects if left unattended, it's important for this model to have a higher sensitivity score than precision. If a false negative is returned, the worst thing that could happen is more people are helping monitor their health.
@@ -29,7 +25,7 @@ The following is a loose step-by-step plan of how the model will be implemented:
     * Fit model with x and y training datasets
 * Make predictions
 * Evaluate performance
-    * Create creation metrics
+    * Create summary metrics
     * Analyze and interpet accuracy, precision, and sensitivity
 * Make conclusions
     * Does this model perform optimally? (at least above 75%, optimally at or above 95%)
