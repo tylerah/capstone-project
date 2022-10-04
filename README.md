@@ -1,6 +1,9 @@
 # capstone-project
 DABC Capstone Team Project
 
+## Link to Tableau Dashboard (work in progress)
+https://public.tableau.com/app/profile/tyler.hendricks/viz/draft-capstone-project/Dashboard1?publish=yes
+
 ## Rationale and Data Source
 *Section Author: Tyler Hendricks*
 
