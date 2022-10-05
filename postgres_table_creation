@@ -118,10 +118,10 @@ CREATE TABLE responses(
     SELECT * FROM responses;
 
 -- demostrating joining tables capabilities
-SELECT demographics.age, responses.Suicide_attempt 
+SELECT demographics.white, responses.Suicide_attempt 
 INTO joined_table
 FROM demographics
-INNER JOIN responses ON responses.Record, demographics.Record;
+INNER JOIN responses ON responses.record = demographics.record;
 
 SELECT * FROM joined_table;
 
