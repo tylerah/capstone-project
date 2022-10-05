@@ -1,6 +1,24 @@
 # capstone-project
 DABC Capstone Team Project
 
+## Tableau Dashboard (work in progress)
+*Section Author: Tyler Hendricks*
+
+### Link to Dashboard
+https://public.tableau.com/app/profile/tyler.hendricks/viz/draft-capstone-project/Dashboard1?publish=yes
+
+### Explanation / Notes
+Initial charts were just the overall count of suicide ideation / attempts. However, these charts are misleading in some cases due to the sample including many more white individuals than other races. As such, a second wave of charts were generated in order to show the percentage of each race that considered, planned, and attempted suicide. This breakdown provides a more meaningful context. 
+
+Examples included here:
+
+![screenshot_tableau_black](https://user-images.githubusercontent.com/104606662/193771890-2a40e3ef-2be1-4376-9450-205271bb30d7.png)
+
+![screenshot_tableau_white](https://user-images.githubusercontent.com/104606662/193771916-da8f969f-fb39-43f0-9a69-73708b016f62.png)
+
+While constructing graphs for a breakdown by sexual orientation, it was observed that the numbers do not match what is expected from national data (some sources indicate that LGBTQ suicide rates are well about 20%. This doesn't track with the data in this sample and is potentially an area for improvement. Excel was used to verify that the numbers produced in Tableau were correct even though they don't match other national data sources. While other breakdowns (race & gender) track with what is expected, the difference seen in sexual orientation raises questions to the accuracy of this particular data source. Further scrutiny is warranted. 
+
+
 ## Rationale and Data Source
 *Section Author: Tyler Hendricks*
 
