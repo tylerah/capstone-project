@@ -5,7 +5,7 @@ DABC Capstone Team Project
 *Section Author: Tyler Hendricks*
 
 ### Link to Dashboard
-https://public.tableau.com/app/profile/tyler.hendricks/viz/draft-capstone-project/Dashboard1?publish=yes
+https://public.tableau.com/app/profile/tyler.hendricks/viz/draft-capstone-project/Dashboard-SuicideinAdolescence?publish=yes
 
 ### Explanation / Notes
 Initial charts were just the overall count of suicide ideation / attempts. However, these charts are misleading in some cases due to the sample including many more white individuals than other races. As such, a second wave of charts were generated in order to show the percentage of each race that considered, planned, and attempted suicide. This breakdown provides a more meaningful context. 
