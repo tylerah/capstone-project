@@ -7,6 +7,9 @@ DABC Capstone Team Project
 ### Link to Dashboard
 https://public.tableau.com/app/profile/tyler.hendricks/viz/DABCCapstoneProject-SuicideRiskinAdolescents/Dashboard-SuicideinAdolescence?publish=yes
 
+### Link to Google Slideshow
+https://docs.google.com/presentation/d/10kaRYGAx5FV9UMT_6x0MvqeqaaQCGQL8VoUxayhrCW4/edit#slide=id.g87a89564d6d86dd_35
+
 ### Explanation / Notes
 Initial charts were just the overall count of suicide ideation / attempts. However, these charts are misleading in some cases due to the sample including many more white individuals than other races. As such, a second wave of charts were generated in order to show the percentage of each race that considered, planned, and attempted suicide. This breakdown provides a more meaningful context. 
 
@@ -40,6 +43,8 @@ It is expected that by using a machine learning model, risk factors that correla
 ## Machine Learning Model
 *Section Author: Isaac Jorgensen*
 
+### PLANNING
+
 The project's mission is to be able to predict suicide risk from survey data taken from the CDC (YRBSS) for youth in high school. As such, the target variable will be a boolean (0, 1) classification with 0 indicating no suicide risk and 1 inidicating that there is. It was decided to use a random forest ensemble learning model because the nature of the project aligns with the ways random forest excels: resistant to overfitting, naturally ranks feature importance, and handles outliers well. 
 Because mental health is such an important aspect of an individuals life and can have devastating affects if left unattended, it's important for this model to have a higher sensitivity score than precision. If a false negative is returned, the worst thing that could happen is more people are helping monitor their health.
 
@@ -70,3 +75,11 @@ The following is a loose step-by-step plan of how the model will be implemented:
         * Feature Importance
         * Sampling differences (SMOTE, SMOTEEN, oversampling, undersampling)
     * If necessary, use another machine learning model (like Logistical Regression)
+
+### EXECUTION
+
+After interpolating the data, splitting into the training and testing groups (through train_test_split), scaling it, and passing it through the RandomForestClassifier, the model returned the following values:
+    * recall: 1.0
+    * precision: 0.9
+    * accuracy: 0.91
+Luckily, the model performed exceptionally well in the first pass and the first model choice the team selected for the project. A high recall score indicates that most, if not all, youth who attempted suicide were able to be identified as such through the model. And luckily, there weren't many false positives recorded, either! While having a few false positives was acceptable for the use-case of this model, it is encouraging to see such strong performance.
