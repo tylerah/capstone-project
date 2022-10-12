@@ -1,6 +1,12 @@
 # capstone-project
 DABC Capstone Team Project
 
+### Link to Dashboard
+https://public.tableau.com/app/profile/tyler.hendricks/viz/DABCCapstoneProject-SuicideRiskinAdolescents/Dashboard-SuicideinAdolescence?publish=yes
+
+### Link to Google Slideshow
+https://docs.google.com/presentation/d/10kaRYGAx5FV9UMT_6x0MvqeqaaQCGQL8VoUxayhrCW4/edit#slide=id.g87a89564d6d86dd_35
+
 ## Overview of Project
 
 **Selected Topic: Suicide Risk in Adolescents**
@@ -70,13 +76,6 @@ Luckily, the model performed exceptionally well in the first pass and the first 
 
 ## Tableau Dashboard
 
-### Link to Dashboard
-https://public.tableau.com/app/profile/tyler.hendricks/viz/DABCCapstoneProject-SuicideRiskinAdolescents/Dashboard-SuicideinAdolescence?publish=yes
-
-### Link to Google Slideshow
-https://docs.google.com/presentation/d/10kaRYGAx5FV9UMT_6x0MvqeqaaQCGQL8VoUxayhrCW4/edit#slide=id.g87a89564d6d86dd_35
-
-### Explanation
 Initial charts were just the overall count of suicide ideation / attempts. However, these charts are misleading in some cases due to the sample including many more white individuals than other races. As such, a second wave of charts were generated in order to show the percentage of each race that considered, planned, and attempted suicide. This breakdown provides a more meaningful context. 
 
 Examples included here:
