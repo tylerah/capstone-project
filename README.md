@@ -27,12 +27,12 @@ The data for this project was sourced from the YRBSS (Youth Risk Behavior Survei
 
 **Planning:**
 
-The project's mission is to be able to predict suicide risk from survey data taken from the CDC (YRBSS) for youth in high school. As such, the target variable will be a boolean (0, 1) classification with 0 indicating no suicide risk and 1 inidicating that there is. It was decided to use a random forest ensemble learning model because the nature of the project aligns with the ways random forest excels: resistant to overfitting, naturally ranks feature importance, and handles outliers well. 
-Because mental health is such an important aspect of an individuals life and can have devastating affects if left unattended, it's important for this model to have a higher sensitivity score than precision. If a false negative is returned, the worst thing that could happen is more people are helping monitor their health.
+The project's mission is to be able to predict suicide risk from survey data taken from the CDC (YRBSS) for youth in high school. As such, the target variable is a boolean (0, 1) classification with 0 indicating no suicide risk and 1 indicating that there is. It was decided to use a random forest ensemble learning model because the nature of the project aligns with the ways random forest excels: resistant to overfitting, naturally ranks feature importance, and handles outliers well. 
+Because mental health is such an important aspect of an individuals life and can have devastating effects if left unattended, it was important for this model to have a higher sensitivity score than precision. If a false negative is returned, the worst thing that could happen is more people are helping monitor their health.
 
-This project will use the sklearn library's RandomForestClassifier, train_test_split, StandardScaler, confusion_matrix, and classification_report to help analyze and interpret the results.
+This project used the sklearn library's RandomForestClassifier, train_test_split, StandardScaler, confusion_matrix, and classification_report to help analyze and interpret the results.
 
-The following is a loose step-by-step plan of how the model will be implemented:
+The following is a loose step-by-step plan of how the model was implemented:
 * Pre-process dataset
     * Handle null values with interpolation
     * Encode categorical values
