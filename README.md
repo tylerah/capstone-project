@@ -61,9 +61,10 @@ The following is a loose step-by-step plan of how the model was implemented:
 **Execution:**
 
 After interpolating the data, splitting into the training and testing groups (through train_test_split), scaling it, and passing it through the RandomForestClassifier, the model returned the following values:
-    * recall: 1.0
-    * precision: 0.9
-    * accuracy: 0.91
+- recall: 1.0
+- precision: 0.9
+- accuracy: 0.91
+
 Luckily, the model performed exceptionally well in the first pass and the first model choice the team selected for the project. A high recall score indicates that most, if not all, youth who attempted suicide were able to be identified as such through the model. And luckily, there weren't many false positives recorded, either! While having a few false positives was acceptable for the use-case of this model, it is encouraging to see such strong performance.
 
 
